@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*Header*/
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/banner11.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  padding-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+.header img {
+  width: 170px;
+  float: left;
+}
+.login-btn {
+  width: 100px;
+  margin-top: 30px;
+  padding: 8px 0;
+  outline: none !important;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: transparent;
+  color: white;
+  float: right;
+}
+.header h1 {
+  padding-top: 260px;
+  padding-bottom: 0;
+  font-size: 55px;
+}
+.header p {
+  margin: 18px 0;
+}
+.input-group {
+  width: 90%;
+  max-width: 500px;
+  border-radius: 30px;
+  background: #fff;
+  margin: auto;
+  padding: 2px 0;
+}
+.form-control {
+  border: 0 !important;
+  border-radius: 30px !important;
+  margin: 2px;
+  box-shadow: none !important;
+}
+.input-group-text {
+  width: 100px;
+  background-image: linear-gradient(#00ff7e, #1f3d90);
+  border: 0 !important;
+  color: #fff !important;
+  padding: 10px !important;
+  border-radius: 30px !important;
+  box-shadow: none !important;
+}
+
+/*Features*/
+.features {
+  padding: 100px;
+}
+h1 {
+  padding-bottom: 30px;
+  text-align: center;
+}
+.feature-img img {
+  width: 100%;
+}
+.price {
+  width: 50px;
+  height: 50px;
+  background: #ff5722;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+  position: absolute;
+  left: 20px;
+  bottom: -22px;
+}
+.feature-img {
+  position: relative;
+}
+.rating {
+  padding: 3px;
+  float: right;
+  background: #fff;
+  bottom: -1px;
+  right: 0;
+  position: absolute;
+}
+.features .fa {
+  font-size: 15px;
+  color: #ff5722;
+}
+.feature-details {
+  padding: 20px;
+  text-align: justify;
+}
+.feature-details h4 {
+  font-weight: 600;
+  margin-top: 20px;
+}
+.feature-details .fa {
+  margin: 5px;
+}
+.feature-box {
+  box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+  margin-bottom: 30px;
+}
+@media(max-width:700px)
+{
+  .row{
+    
+    flex-direction: column;
+  }
+  .header
+  {
+    max-width: 100%;
+  }
+  .header h1
+  {
+    font-size: 35px;
+  }
+  .feature-box
+  {
+    flex-direction: column;
+  }
+  .features
+  {
+    padding: 12px;
+  }
+  .input-group
+  {
+    max-width: 250px;
+  }
+  .gallery
+  {
+    pad: 12px;
+  }
+  
+
+}
+
+/*Gallery*/
+.gallery 
+{
+    padding:100px 0;
+    background:#efefef;
+}
+.gallery-box img{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 1s;
+}
+.gallery-box img:hover
+{
+    transform: scale(1.1);
+}
+.gallery-box h4{
+    text-align: center;
+    display: block;
+    width: 200px;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.gallery-box
+{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+/*Banner*/
+.banner
+{
+    min-height: 100vh;
+    width: 100%;
+  background-image:
+    url("../images/banner44.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 14%;
+}
+.banner-highlights
+{
+    padding:70px 0;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color:#fff ;
+}
+.booking-btn
+{
+    width: 120px;
+  margin-top: 30px;
+  padding: 8px 0;
+  outline: none !important;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: transparent;
+  color: white;
+  margin-top: 20px;
+}
+
+/*User*/
+.user-feedback
+{
+    padding:100px 0;
+}
+.user-review
+{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,100,0.2);
+    padding-bottom: 50px;
+}
+.user-review p{
+    padding: 50px 10px 10px 10px;
+}
+.user-feedback img
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+/*footer*/
+
+.footer
+{
+    padding: 100px 20px 20px;
+    background-image:linear-gradient(#0cebeb,#20e3b2,#29ffc6);
+    color: #fff;
+}
+.footer-logo
+{
+    width:150px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+.footer h4{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer p
+{
+    text-align: justify;
+    font-size: 15px;
+    padding-right: 35px;
+}
+.footer hr
+{
+    margin:10px;
+    color: #fff;
+}
+.footer .copyright
+{
+    text-align: center;
+}
+.fa-heart
+{
+    margin: 0 5px;
+    color:#ff3346;
+}
+
+
+
+@media(max-width:700px)
+{
+  .row
+  {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
